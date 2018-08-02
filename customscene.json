@@ -1,0 +1,22 @@
+{
+    "owner": "0x5c4eEc8836Ab68EDDB7CCC55Dfd463Ce3c3C64bd",
+    "contact": {
+      "name": "dexploneer",
+      "email": "dexploneer@gmail.com"
+    },
+    "scene": {
+        "parcels": [
+          "0,0",
+          "0,1",
+          "1,0",
+          "1,1"
+        ],
+        "base": "0,0",
+        "lands": {
+            "068a942c-648e-4689-b38e-fd5e009f5a82": { "title": "squarecity", "owner": "0x1707eaDb43841172a966F76F5558132024deD2fd", "deadline": 1564664255 },
+            "6145c63e-c22f-45c5-998b-8065d5a885d1": { "title": "mynicecity", "owner": "0x9557FD40E5bE67339bCA97650bFc4Ee4681a57a4", "deadline": 1580551895 },
+            "698f749f-65fe-4958-9cbc-0069d1a10683": { "title": "customrentland", "owner": "0x2BD13Fdf30470f07351b07E297664557C24f8a8d", "deadline": 1595541909 },
+            "0ab4ce6e-5e95-473b-94a6-695c10b7a8c8": { "title": "stratsland", "owner": "0x60aE3Ebab9Ac5e8673E62b36Bf7A9B80b91F6127", "deadline": 2542973269 }
+        }
+    }
+}
