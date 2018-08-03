@@ -62,13 +62,3 @@ export default class MultidimensionalScene extends DCL.ScriptableScene<any, any>
     )
   }
 }
-
-/*
-    "0ab4ce6e-5e95-473b-94a6-695c10b7a8c8": true,
-    "09b9a22b-9d00-46d5-8a2a-8d0894c510cc": true,
-    "04e3392f-1981-48f1-b6c6-ba3446ad3b79": true,
-    "d8427b56-f960-455e-b6cb-70277fa06a44": true,
-    "545d2771-387b-4631-a0e9-30fe69318fcf": true,
-    "edc3080f-0eab-479f-873f-7fb5c301ab2e": true,
-    "3d81cb61-829d-46c8-bcb8-d010c4ab7b97": true
-*/
