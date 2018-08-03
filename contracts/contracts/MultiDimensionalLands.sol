@@ -15,19 +15,19 @@ contract MultiDimensionalLands { //A simple contract for implmenting the basics 
     }
 
     //public utilities
-    function roomExists(uint256 landParcel, bytes32 roomId) public view returns (bool) {
-        return keccak256(LandParcels[landParcel][roomId]) != keccak256(""); //check if room contents is not a empty string
+    function dimensionExists(uint256 landParcel, bytes32 dimensionId) public view returns (bool) {
+        return keccak256(LandParcels[landParcel][dimensionId]) != keccak256(""); //check if room contents is not a empty string
     }
 
     //public state modifying functions
-    function updateRoom(uint256 landParcel, bytes32 roomId, string content) public { //used to create and modify rooms
+    function updateDimension(uint256 landParcel, bytes32 dimensionId, string content) public { //used to create and modify rooms
         require(isLandOwner(landParcel, msg.sender));
-        LandParcels[landParcel][roomId] = content;
+        LandParcels[landParcel][dimensionroomId] = content;
     }
 
-    function removeRoom(uint256 landParcel, bytes32 roomId) public {
+    function removeDimension(uint256 landParcel, bytes32 dimensionId) public {
         require(isLandOwner(landParcel, msg.sender));
-        require(roomExists(landParcel, roomId)); //no point spending gas to delete the room if it does not exist
-        LandParcels[landParcel][roomId] = "";
+        require(dimensionExists(landParcel,dimensionId)); //no point spending gas to delete the room if it does not exist
+        LandParcels[landParcel][dimensionId] = "";
     }
 }
