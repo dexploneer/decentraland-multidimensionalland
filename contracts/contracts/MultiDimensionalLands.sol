@@ -22,7 +22,7 @@ contract MultiDimensionalLands { //A simple contract for implmenting the basics 
     //public state modifying functions
     function updateDimension(uint256 landParcel, bytes32 dimensionId, string content) public { //used to create and modify rooms
         require(isLandOwner(landParcel, msg.sender));
-        LandParcels[landParcel][dimensionroomId] = content;
+        LandParcels[landParcel][dimensionId] = content;
     }
 
     function removeDimension(uint256 landParcel, bytes32 dimensionId) public {
